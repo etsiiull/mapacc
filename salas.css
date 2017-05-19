@@ -1,0 +1,168 @@
+.tsala {
+  margin: 0px;
+  font: bold 12px arial, sans-serif;
+  color: white;
+   /* text-shadow: 1px 1px 1px #666; */
+}
+.scc {
+  font: normal 8px arial, sans-serif;
+  display:flex;
+  top:-20px;
+
+}
+
+.tplanta {
+  margin: 0px;
+  font: bold 14px arial, sans-serif;
+  text-shadow: 2px 2px 2px #666;
+  color: blue;
+  display:flex;
+  justify-content: left;
+  padding-left:30px;
+  padding-top:3px;
+}
+
+.centrocalculo {
+  display:flex;
+}
+
+.proyecto {
+  /* transform:rotate(35deg); */
+  margin: 30px;
+}
+
+
+.plantabaja {
+  border: 1px solid black;
+  margin: 3px;
+  width: 500px;
+  justify-content: right;
+}
+
+.plantaalta {
+  border: 1px solid black;
+  margin: 3px;
+  width: 600px;
+  justify-content: right;
+}
+
+
+
+.pasillopbaja {
+  border: 1px solid black;
+  height:50px;
+  margin: 1px;
+  border: 0px solid black;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  font: bold 14px arial, sans-serif;
+  /*text-shadow: 2px 2px 2px #666;*/
+  color: grey;
+}
+
+
+
+.pasillo2 {
+  height:20px;
+  margin: 1px;
+  border: 0px solid black;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  font: bold 14px arial, sans-serif;
+  /*text-shadow: 2px 2px 2px #666;*/
+  color: grey;
+}
+.alabajaimpar,
+.alabajapar {
+  display: flex;
+  border: 0px solid black;
+  margin: 3px;
+  justify-content: center;
+}
+
+.alaaltapar,
+.albajapar,
+.altaalta2 {
+  display: flex;
+  margin: 3px;
+  border: 1px solid black;
+  justify-content: center;
+}
+
+.sala {
+  /*display:flex;*/
+  border: 1px solid black;
+  margin: 7px;
+  padding: 5px 5px 5px 5px;
+  justify-content: center;
+  /*display:flex;*/
+}
+
+.fila {
+  display: flex;
+  border: 0px solid blue;
+}
+
+.gap {
+  width: 20px;
+  height: 20px;
+  margin: 3px;
+  background: white;
+  display: flex;
+  visibility: hidden;
+  border: 1px solid black;
+}
+
+.pasillo {
+  width: 20px;
+  height: 20px;
+  margin: 3px;
+  background: white;
+  visibility: hidden;
+  border: 1px solid black;
+  display: flex;
+}
+
+.cc {
+  width: 20px;
+  height: 20px;
+  margin: 3px;
+  background: red;
+  box-shadow: 1px 1px 1px 1px#666;
+  display: flex;
+  border: 1px solid black;
+  justify-content: center;
+}
+
+
+.puerta, #puerta11, #puerta13 {
+  width: 80px;
+  height: 15px;
+  margin: 3px;
+  position:relative;
+  top:-17px;
+  left:10px;
+  box-shadow: 1px 1px 1px 1px#666;
+  display: flex;
+  border: 1px solid black;
+  justify-content: center;
+  font: bold 8px arial, sans-serif;
+  background: black;
+}
+
+#puerta12, #puerta14, #puerta24 {
+  width: 80px;
+  height: 15px;
+  margin: 3px;
+  position:relative;
+  top:15px;
+  left:10px;
+  background: black;
+  box-shadow: 1px 1px 1px 1px#666;
+  display: flex;
+  border: 1px solid black;
+  justify-content: center;
+  font: bold 8px arial, sans-serif;
+}
